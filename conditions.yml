@@ -9,5 +9,5 @@
 
     - name: Print the Orange price
       ansible.builtin.debug:
-        msg: Price of Orange is 1$
+        msg: Price of Orange is 2$
       when: fruit == "Orange"
