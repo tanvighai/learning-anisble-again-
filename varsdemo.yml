@@ -24,7 +24,7 @@
       #vars:
        # url: play.example.com
 - name: demo on roles
-  host: localhost
+  hosts: localhost
   roles:
     - demorole
 
