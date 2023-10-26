@@ -21,8 +21,8 @@
     - name: Print a variable declared on task level
       ansible.builtin.debug:
        msg: "{{ url }}"
-      vars:
-        url: play.example.com
+      #vars:
+       # url: play.example.com
 - name: demo on roles
   host:
   roles:
