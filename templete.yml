@@ -1,11 +1,9 @@
 - name: test on templetes
   hosts: all
   become: yes
-  tasks:
-    - name: copy file
-      ansible.builtin.template:
-        src: tst.txt
-        dest: /tmp/tst.txt
+  roles:
+    - demorole
+
 
 
    # this will copy a file from one place to another on a remote server from a workstation
