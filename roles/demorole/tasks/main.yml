@@ -1,6 +1,6 @@
-#- name: Print variable
-#  ansible.builtin.debug:
-#    msg: "URL= {{ url }}"
+- name: Print variable
+  ansible.builtin.debug:
+    msg: "URL= {{ url }}"
 
 - name: copy file
   ansible.builtin.template:
