@@ -1,4 +1,4 @@
-- name: test on templetes
+- name: test on templates
   hosts: all
   become: yes
   roles:
