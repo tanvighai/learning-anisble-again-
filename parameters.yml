@@ -1,5 +1,5 @@
 - name: demo on parameters
-  hosts: localhost
+  hosts: all
   tasks:
     - name: load a parameter from parameter store
       ansible.builtin.debug:
