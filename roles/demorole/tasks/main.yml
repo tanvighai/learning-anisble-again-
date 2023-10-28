@@ -6,4 +6,5 @@
   ansible.builtin.template:
     src: test.txt
     dest: /tmp/test.txt
+    remote_src: yes
 
