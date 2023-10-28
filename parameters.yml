@@ -1,0 +1,9 @@
+- name: demo on parameters
+  hosts: all
+  tasks:
+    - name: load a parameter from parameter store
+      ansible.builtin.debug:
+        msg: "{{ lookup('amazon.aws.aws_ssm', 'test', region='us-east-1' ) }}"
+
+
+# where test is the name of parameter we are retrieving
